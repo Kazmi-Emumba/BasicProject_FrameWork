@@ -15,4 +15,5 @@ Assignment for UI Automation with Selenium and Extent Reporting
 
 # How to Run
 > After cloning this project Run Selenium grid as standalone \
+> Build the project as maven \
 > Once Selenium Grid is running Use batchfiles/batch.xml to run all tests
