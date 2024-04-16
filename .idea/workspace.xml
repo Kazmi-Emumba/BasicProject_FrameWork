@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e3e1db9-a485-4cb4-bc6d-a1d6aa127db3" name="Changes" comment="project Setup Assignment">
+    <list default="true" id="2e3e1db9-a485-4cb4-bc6d-a1d6aa127db3" name="Changes" comment="project Setup with selenium grid standalone flow">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/batchfiles/batch.xml" beforeDir="false" afterPath="$PROJECT_DIR$/batchfiles/batch.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Base/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Base/LoginTry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/LoginTry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestCases/NavigationCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCases/NavigationCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestCases/ShoppingCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCases/ShoppingCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Base/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Base/BaseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713267491251</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="project Setup with selenium grid standalone flow">
+      <created>1713274491803</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713274491803</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,7 +177,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project Setup Assignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="project Setup Assignment" />
+    <MESSAGE value="project Setup with selenium grid standalone flow" />
+    <option name="LAST_COMMIT_MESSAGE" value="project Setup with selenium grid standalone flow" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ProjectSetup$ValidLogin_login.ic" NAME="ValidLogin.login Coverage Results" MODIFIED="1708546564947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
