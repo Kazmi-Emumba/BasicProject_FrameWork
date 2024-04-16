@@ -34,8 +34,8 @@ HomePage HPage;
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        ExtentTest loginTest= extent.createTest("Logout Test");
-        loginTest.pass("Logged out report check");
+        ExtentTest loginTest= extent.createTest("Navigation Test");
+        loginTest.pass("Logged out Successfully using navigation tab");
 
     }
 

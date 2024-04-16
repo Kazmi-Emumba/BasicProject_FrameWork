@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e3e1db9-a485-4cb4-bc6d-a1d6aa127db3" name="Changes" comment="project Setup Assignment" />
+    <list default="true" id="2e3e1db9-a485-4cb4-bc6d-a1d6aa127db3" name="Changes" comment="project Setup Assignment">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/batchfiles/batch.xml" beforeDir="false" afterPath="$PROJECT_DIR$/batchfiles/batch.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Base/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Base/LoginTry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/LoginTry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestCases/NavigationCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCases/NavigationCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestCases/ShoppingCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCases/ShoppingCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Base/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Base/BaseClass.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,50 +86,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NavigationCase" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="&lt;default&gt; (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjectSetup" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestCases" />
-      <option name="MAIN_CLASS_NAME" value="TestCases.NavigationCase" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingCase.bag_shopping_flow" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="&lt;default&gt; (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjectSetup" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestCases" />
-      <option name="MAIN_CLASS_NAME" value="TestCases.ShoppingCase" />
-      <option name="METHOD_NAME" value="bag_shopping_flow" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCases" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="&lt;default&gt; (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjectSetup" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
@@ -141,10 +129,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.D:/Old Laptop/Automation Goal/ProjectSetup/batchfiles/batch.xml" />
-        <item itemvalue="TestNG.TestCases" />
-        <item itemvalue="TestNG.ShoppingCase.bag_shopping_flow" />
+        <item itemvalue="TestNG.&lt;default&gt; (3)" />
         <item itemvalue="TestNG.&lt;default&gt;" />
-        <item itemvalue="TestNG.NavigationCase" />
+        <item itemvalue="TestNG.&lt;default&gt; (2)" />
+        <item itemvalue="TestNG.&lt;default&gt; (1)" />
       </list>
     </recent_temporary>
   </component>

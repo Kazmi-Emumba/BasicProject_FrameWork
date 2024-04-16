@@ -48,8 +48,8 @@ public class ShoppingCase extends LoginTry {
 
             }
         }
-        ExtentTest loginTest= extent.createTest("shopping Test");
-        loginTest.pass("Shopping report check");
+        ExtentTest loginTest= extent.createTest("shopping cart Flow Test");
+        loginTest.pass("Shopping Checkout Successfully");
 
 
 

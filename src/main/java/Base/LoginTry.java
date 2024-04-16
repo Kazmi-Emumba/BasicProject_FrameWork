@@ -27,8 +27,8 @@ public class LoginTry extends BaseClass{
         Thread.sleep(2000);
         Login.Login_btn.click();
         Thread.sleep(3000);
-        ExtentTest loginTest= extent.createTest("Login Test");
-        loginTest.pass("Logged In report check");
+        ExtentTest loginTest= extent.createTest("Pre-req Login");
+        loginTest.pass("Logged In Successfully");
     }
 
 

@@ -76,16 +76,16 @@ public class BaseClass {
         }
         else if(BrowserType.equalsIgnoreCase("edge"))
         {
-            WebDriverManager.edgedriver().setup();
-           /* EdgeOptions options = new EdgeOptions();
+
+           EdgeOptions options = new EdgeOptions();
             try {
                 driver = new RemoteWebDriver(new URI("http://localhost:4444/").toURL(), options);
+                WebDriverManager.edgedriver().setup();
             } catch (URISyntaxException e) {
                 throw new RuntimeException(e);
             } catch (MalformedURLException e) {
                 throw new RuntimeException(e);
-            }*/
-            driver = new EdgeDriver();
+            }
         }
 
         driver.manage().window().maximize();
@@ -106,11 +106,12 @@ public class BaseClass {
 
     protected void cleanUp(){
         extent.flush();
-        driver.quit();
+
         String verificationErrorString = verificationErrors.toString();
         if (!"".equals(verificationErrorString)) {
             fail(verificationErrorString);
         }
+        this.driver.quit();
 
     }
 
