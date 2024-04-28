@@ -30,6 +30,7 @@ public class BaseClass {
 
     protected String AppUrl;
     protected String BrowserType;
+    protected String ExecutionMode;
     protected StringBuffer verificationErrors = new StringBuffer();
     protected static ExtentReports extent = new ExtentReports();
     protected static ExtentSparkReporter spark = new ExtentSparkReporter("index.html");
@@ -45,16 +46,16 @@ public class BaseClass {
     public void suiteSetUP() throws InterruptedException {
         configReader.initializePropertyFile();
         BrowserType= configReader.property.getProperty("BrowserType");
-
+        ExecutionMode= configReader.property.getProperty("ExecutionMode");
         AppUrl= configReader.property.getProperty("APP_URL");
         try {
-            initialize(BrowserType,AppUrl);
+            initialize(BrowserType,AppUrl,ExecutionMode);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
     }
 
-    protected void initialize(String BrowserType,String AppURLProperty) throws InterruptedException{
+    protected void initialize(String BrowserType,String AppURLProperty, String RunMode) throws InterruptedException{
 
         if(BrowserType.equalsIgnoreCase("chrome"))
         {
@@ -67,9 +68,7 @@ public class BaseClass {
             FirefoxOptions options = new FirefoxOptions();
             try {
                 driver = new RemoteWebDriver(new URI("http://localhost:4444/").toURL(), options);
-            } catch (URISyntaxException e) {
-                throw new RuntimeException(e);
-            } catch (MalformedURLException e) {
+            } catch (URISyntaxException | MalformedURLException e) {
                 throw new RuntimeException(e);
             }
             //driver = new FirefoxDriver();
@@ -77,15 +76,20 @@ public class BaseClass {
         else if(BrowserType.equalsIgnoreCase("edge"))
         {
 
-           EdgeOptions options = new EdgeOptions();
+           if(RunMode.equalsIgnoreCase("seleniumgrid"))
+           {
+               EdgeOptions options = new EdgeOptions();
             try {
                 driver = new RemoteWebDriver(new URI("http://localhost:4444/").toURL(), options);
                 WebDriverManager.edgedriver().setup();
-            } catch (URISyntaxException e) {
-                throw new RuntimeException(e);
-            } catch (MalformedURLException e) {
+            } catch (URISyntaxException | MalformedURLException e) {
                 throw new RuntimeException(e);
             }
+           }
+           else{
+               WebDriverManager.edgedriver().setup();
+               driver = new EdgeDriver();
+           }
         }
 
         driver.manage().window().maximize();
