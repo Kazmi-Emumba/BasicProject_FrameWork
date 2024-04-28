@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e3e1db9-a485-4cb4-bc6d-a1d6aa127db3" name="Changes" comment="Updated ReadMe File to enter new lines">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configurations/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configurations/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Base/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Base/LoginTry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/LoginTry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Base/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Base/BaseClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Base/LoginTry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Base/LoginTry.class" afterDir="false" />
-    </list>
+    <list default="true" id="2e3e1db9-a485-4cb4-bc6d-a1d6aa127db3" name="Changes" comment="selenium grid handle from config and Login class report improvement" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713276673897</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="selenium grid handle from config and Login class report improvement">
+      <created>1714339358799</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714339358799</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,7 +217,8 @@
     <MESSAGE value="project Setup with selenium grid standalone flow" />
     <MESSAGE value="Updated ReadMe File" />
     <MESSAGE value="Updated ReadMe File to enter new lines" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated ReadMe File to enter new lines" />
+    <MESSAGE value="selenium grid handle from config and Login class report improvement" />
+    <option name="LAST_COMMIT_MESSAGE" value="selenium grid handle from config and Login class report improvement" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Project_Setup$D__Old_Laptop_Automation_Goal_ProjectSetup_batchfiles_batch_xml.ic" NAME="$PROJECT_DIR$/../../../Old Laptop/Automation Goal/ProjectSetup/batchfiles/batch.xml Coverage Results" MODIFIED="1714336984205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
