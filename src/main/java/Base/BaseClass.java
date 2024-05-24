@@ -12,27 +12,26 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.*;
+import utils.ExtentManager;
 
 import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.concurrent.TimeUnit;
 
+import static Base.ApplicationLogin.*;
 import static org.testng.AssertJUnit.fail;
-
+@Listeners(utils.TestListeners.class)
 public class BaseClass {
 
-    protected WebDriver driver;
+    public WebDriver driver;
 
     protected String AppUrl;
     protected String BrowserType;
     protected String ExecutionMode;
     protected StringBuffer verificationErrors = new StringBuffer();
-    protected static ExtentReports extent = new ExtentReports();
+   /* protected static ExtentReports extent = new ExtentReports();
     protected static ExtentSparkReporter spark = new ExtentSparkReporter("index.html");
 
     public static ExtentReports getExtent() {
@@ -40,7 +39,7 @@ public class BaseClass {
         spark.config().setDocumentTitle("Automation Assignment Report");
         spark.config().setReportName("Project Setup Training");
         return extent;
-    }
+    }*/
 
     @BeforeClass
     public void suiteSetUP() throws InterruptedException {
@@ -53,6 +52,8 @@ public class BaseClass {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+
+
     }
 
     protected void initialize(String BrowserType,String AppURLProperty, String RunMode) throws InterruptedException{
@@ -98,9 +99,8 @@ public class BaseClass {
         driver.get(AppURLProperty);
 
 
-
-
     }
+
 
     @AfterClass(alwaysRun = true)
     public void tearDown() throws Exception {
@@ -109,7 +109,7 @@ public class BaseClass {
     }
 
     protected void cleanUp(){
-        extent.flush();
+        //extent.flush();
 
         String verificationErrorString = verificationErrors.toString();
         if (!"".equals(verificationErrorString)) {

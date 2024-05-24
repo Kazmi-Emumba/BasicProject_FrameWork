@@ -1,14 +1,14 @@
 package TestCases;
 
-import Base.BaseClass;
-import Base.LoginTry;
-import com.aventstack.extentreports.ExtentTest;
+import Base.ApplicationLogin;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pageFactory.CartFlow;
 
-public class ShoppingCase extends LoginTry {
+import static utils.ExtentManager.createInstance;
+
+public class ShoppingCase extends ApplicationLogin {
 
 
     CartFlow CartPage;
@@ -16,8 +16,7 @@ public class ShoppingCase extends LoginTry {
     @BeforeClass
     public void setup() throws InterruptedException {
         CartPage= PageFactory.initElements(driver, CartFlow .class);
-        getExtent();
-        logintry();
+        ApplicationLoginTry();
     }
 
     @Test
@@ -48,10 +47,6 @@ public class ShoppingCase extends LoginTry {
 
             }
         }
-        ExtentTest loginTest= extent.createTest("shopping cart Flow Test");
-        loginTest.pass("Shopping Checkout Successfully");
-
-
 
     }
 

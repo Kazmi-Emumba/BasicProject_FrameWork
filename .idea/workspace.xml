@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e3e1db9-a485-4cb4-bc6d-a1d6aa127db3" name="Changes" comment="selenium grid handle from config and Login class report improvement" />
+    <list default="true" id="2e3e1db9-a485-4cb4-bc6d-a1d6aa127db3" name="Changes" comment="selenium grid handle from config and Login class report improvement">
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ExtentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/TestListeners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/batchfiles/batch.xml" beforeDir="false" afterPath="$PROJECT_DIR$/batchfiles/batch.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configurations/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configurations/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Base/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Base/LoginTry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/ApplicationLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestCases/NavigationCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCases/NavigationCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestCases/ShoppingCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCases/ShoppingCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageFactory/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageFactory/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageFactory/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageFactory/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Base/BaseClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Base/LoginTry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestCases/NavigationCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestCases/NavigationCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestCases/ShoppingCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestCases/ShoppingCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageFactory/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageFactory/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageFactory/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageFactory/LoginPage.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +49,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2cgh2K9OrdFqGuO2eDodQ9kBDYq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -55,7 +73,7 @@
       <recent name="pageFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Old Laptop/Automation Goal/ProjectSetup/batchfiles/batch.xml">
+  <component name="RunManager" selected="TestNG.ApplicationLogin">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -67,10 +85,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/Old Laptop/Automation Goal/ProjectSetup/batchfiles/batch.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ApplicationLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjectSetup" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/batchfiles/batch.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Base" />
+      <option name="MAIN_CLASS_NAME" value="Base.ApplicationLogin" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationLogin.ApplicationLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectSetup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Base" />
+      <option name="MAIN_CLASS_NAME" value="Base.ApplicationLogin" />
+      <option name="METHOD_NAME" value="ApplicationLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -94,6 +137,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NavigationCase.app_logout" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectSetup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.NavigationCase" />
+      <option name="METHOD_NAME" value="app_logout" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestCases" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjectSetup" />
       <extension name="coverage">
@@ -110,33 +171,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="&lt;default&gt; (3)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ProjectSetup" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ProjectSetup" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/Old Laptop/Automation Goal/ProjectSetup/batchfiles/batch.xml" />
+        <item itemvalue="TestNG.ApplicationLogin" />
         <item itemvalue="TestNG.NavigationCase" />
+        <item itemvalue="TestNG.ApplicationLogin.ApplicationLogin" />
+        <item itemvalue="TestNG.NavigationCase.app_logout" />
         <item itemvalue="TestNG.TestCases" />
-        <item itemvalue="TestNG.&lt;default&gt; (3)" />
-        <item itemvalue="TestNG.&lt;default&gt;" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714339765816</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="selenium grid handle from config and Login class report improvement">
+      <created>1714376590837</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714376590837</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
