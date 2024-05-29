@@ -4,24 +4,53 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e3e1db9-a485-4cb4-bc6d-a1d6aa127db3" name="Changes" comment="selenium grid handle from config and Login class report improvement">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ExtentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/TestListeners.java" afterDir="false" />
+    <list default="true" id="2e3e1db9-a485-4cb4-bc6d-a1d6aa127db3" name="Changes" comment="TestListener Implemented and LoginApplication class run working only now">
+      <change afterPath="$PROJECT_DIR$/reports/AutomationReport__F_r_i_ _M_a_y_ _2_4_ _1_4___1_9___1_8_ _P_K_T_ _2_0_2_4_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/AutomationReport__F_r_i_ _M_a_y_ _2_4_ _1_4___2_3___0_0_ _P_K_T_ _2_0_2_4_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/AutomationReport__F_r_i_ _M_a_y_ _2_4_ _1_4___3_4___0_8_ _P_K_T_ _2_0_2_4_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/AutomationReport__F_r_i_ _M_a_y_ _2_4_ _1_4___3_5___5_0_ _P_K_T_ _2_0_2_4_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/AutomationReport__F_r_i_ _M_a_y_ _2_4_ _1_4___4_2___1_8_ _P_K_T_ _2_0_2_4_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/AutomationReport__F_r_i_ _M_a_y_ _2_4_ _1_4___5_1___1_1_ _P_K_T_ _2_0_2_4_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/AutomationReport__F_r_i_ _M_a_y_ _2_4_ _1_4___5_3___0_1_ _P_K_T_ _2_0_2_4_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/AutomationReport__F_r_i_ _M_a_y_ _2_4_ _1_4___5_3___3_3_ _P_K_T_ _2_0_2_4_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/AutomationReport__F_r_i_ _M_a_y_ _2_4_ _1_4___5_4___1_2_ _P_K_T_ _2_0_2_4_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/AutomationReport__F_r_i_ _M_a_y_ _2_4_ _1_4___5_5___5_1_ _P_K_T_ _2_0_2_4_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/AutomationReport__F_r_i_ _M_a_y_ _2_4_ _1_4___5_6___3_7_ _P_K_T_ _2_0_2_4_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/AutomationReport__F_r_i_ _M_a_y_ _2_4_ _1_4___5_6___4_3_ _P_K_T_ _2_0_2_4_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/AutomationReport__F_r_i_ _M_a_y_ _2_4_ _1_4___5_7___5_1_ _P_K_T_ _2_0_2_4_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/AutomationReport__F_r_i_ _M_a_y_ _2_4_ _1_5___0_1___2_1_ _P_K_T_ _2_0_2_4_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/AutomationReport__F_r_i_ _M_a_y_ _2_4_ _1_5___0_2___2_9_ _P_K_T_ _2_0_2_4_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/AutomationReport__F_r_i_ _M_a_y_ _2_4_ _1_5___1_3___0_5_ _P_K_T_ _2_0_2_4_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/AutomationReport__F_r_i_ _M_a_y_ _2_4_ _1_5___2_8___2_5_ _P_K_T_ _2_0_2_4_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/AutomationReport__F_r_i_ _M_a_y_ _2_4_ _1_5___3_1___3_0_ _P_K_T_ _2_0_2_4_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/AutomationReport__F_r_i_ _M_a_y_ _2_4_ _1_5___3_2___2_9_ _P_K_T_ _2_0_2_4_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/AutomationReport__F_r_i_ _M_a_y_ _2_4_ _1_5___3_5___2_9_ _P_K_T_ _2_0_2_4_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/AutomationReport__F_r_i_ _M_a_y_ _2_4_ _1_5___4_0___2_8_ _P_K_T_ _2_0_2_4_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/AutomationReport__F_r_i_ _M_a_y_ _2_4_ _1_5___4_2___0_1_ _P_K_T_ _2_0_2_4_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/AutomationReport__F_r_i_ _M_a_y_ _2_4_ _1_5___4_2___0_6_ _P_K_T_ _2_0_2_4_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/AutomationReport__F_r_i_ _M_a_y_ _2_4_ _1_5___4_9___2_7_ _P_K_T_ _2_0_2_4_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/AutomationReport__T_h_u_ _M_a_y_ _2_3_ _1_6___3_5___3_7_ _P_K_T_ _2_0_2_4_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/AutomationReport__T_h_u_ _M_a_y_ _2_3_ _1_6___3_7___1_1_ _P_K_T_ _2_0_2_4_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/AutomationReport__T_h_u_ _M_a_y_ _2_3_ _1_6___3_9___0_6_ _P_K_T_ _2_0_2_4_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/AutomationReport__T_h_u_ _M_a_y_ _2_3_ _1_6___4_0___1_9_ _P_K_T_ _2_0_2_4_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/AutomationReport__T_h_u_ _M_a_y_ _2_3_ _1_6___4_1___3_7_ _P_K_T_ _2_0_2_4_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/logintry__F_r_i_ _M_a_y_ _2_4_ _1_4___1_9___5_3_ _P_K_T_ _2_0_2_4_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/logintry__T_h_u_ _M_a_y_ _2_3_ _1_6___3_7___4_5_ _P_K_T_ _2_0_2_4_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Base/ApplicationLogin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/utils/ExtentManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/utils/TestListeners.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/batchfiles/batch.xml" beforeDir="false" afterPath="$PROJECT_DIR$/batchfiles/batch.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configurations/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configurations/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Base/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Base/LoginTry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/ApplicationLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TestCases/NavigationCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCases/NavigationCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TestCases/ShoppingCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCases/ShoppingCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageFactory/CartFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageFactory/CartFlow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageFactory/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageFactory/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageFactory/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageFactory/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Base/BaseClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Base/LoginTry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Base/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Base/BaseClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/TestCases/NavigationCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestCases/NavigationCase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/TestCases/ShoppingCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestCases/ShoppingCase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pageFactory/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageFactory/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageFactory/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageFactory/LoginPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +102,7 @@
       <recent name="pageFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ApplicationLogin">
+  <component name="RunManager" selected="TestNG.D:/Automation Assignments/ProjectSetup/Project_Setup/batchfiles/batch.xml">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,18 +131,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplicationLogin.ApplicationLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/Automation Assignments/ProjectSetup/Project_Setup/batchfiles/batch.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjectSetup" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Base" />
-      <option name="MAIN_CLASS_NAME" value="Base.ApplicationLogin" />
-      <option name="METHOD_NAME" value="ApplicationLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/batchfiles/batch.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -173,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ApplicationLogin" />
-        <item itemvalue="TestNG.NavigationCase" />
-        <item itemvalue="TestNG.ApplicationLogin.ApplicationLogin" />
-        <item itemvalue="TestNG.NavigationCase.app_logout" />
+        <item itemvalue="TestNG.D:/Automation Assignments/ProjectSetup/Project_Setup/batchfiles/batch.xml" />
         <item itemvalue="TestNG.TestCases" />
+        <item itemvalue="TestNG.NavigationCase.app_logout" />
+        <item itemvalue="TestNG.NavigationCase" />
+        <item itemvalue="TestNG.ApplicationLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714376590837</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="TestListener Implemented and LoginApplication class run working only now">
+      <created>1716547823661</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716547823661</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,9 +313,11 @@
     <MESSAGE value="Updated ReadMe File" />
     <MESSAGE value="Updated ReadMe File to enter new lines" />
     <MESSAGE value="selenium grid handle from config and Login class report improvement" />
-    <option name="LAST_COMMIT_MESSAGE" value="selenium grid handle from config and Login class report improvement" />
+    <MESSAGE value="TestListener Implemented and LoginApplication class run working only now" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestListener Implemented and LoginApplication class run working only now" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Project_Setup$D__Automation_Assignments_ProjectSetup_Project_Setup_batchfiles_batch_xml.ic" NAME="$PROJECT_DIR$/batchfiles/batch.xml Coverage Results" MODIFIED="1717007232884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Project_Setup$D__Old_Laptop_Automation_Goal_ProjectSetup_batchfiles_batch_xml.ic" NAME="$PROJECT_DIR$/../../../Old Laptop/Automation Goal/ProjectSetup/batchfiles/batch.xml Coverage Results" MODIFIED="1714336984205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/ProjectSetup$ValidLogin_login.ic" NAME="ValidLogin.login Coverage Results" MODIFIED="1708546564947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestCases.*</FILTER>

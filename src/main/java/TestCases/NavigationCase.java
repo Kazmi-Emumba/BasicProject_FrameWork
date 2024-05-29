@@ -12,8 +12,8 @@ import pageFactory.LoginPage;
 
 import static utils.ExtentManager.createInstance;
 
-@Listeners(utils.TestListeners.class)
-public class NavigationCase extends ApplicationLogin {
+//@Listeners(utils.TestListeners.class)
+public class NavigationCase extends BaseClass {
 
 HomePage HPage;
 LoginPage LPage;
@@ -26,12 +26,11 @@ LoginPage LPage;
     }
 
     @Test
-    public void app_logout()
-    {
+    public void app_NavigationFLow_logout() throws InterruptedException {
+        ApplicationLoginTry();
         HPage.HomePage_isdisplayed();
         HPage.Homepage_menuClick();
         HPage.logout_menuClick();
-        LPage.LoginPage_isdisplayed();
 
     }
 

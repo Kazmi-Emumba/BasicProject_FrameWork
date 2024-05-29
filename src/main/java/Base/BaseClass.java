@@ -12,7 +12,10 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.*;
+import pageFactory.HomePage;
+import pageFactory.LoginPage;
 import utils.ExtentManager;
 
 import java.net.MalformedURLException;
@@ -26,11 +29,15 @@ import static org.testng.AssertJUnit.fail;
 public class BaseClass {
 
     public WebDriver driver;
+    LoginPage Login;
+
+    HomePage HomePage;
 
     protected String AppUrl;
     protected String BrowserType;
     protected String ExecutionMode;
     protected StringBuffer verificationErrors = new StringBuffer();
+
    /* protected static ExtentReports extent = new ExtentReports();
     protected static ExtentSparkReporter spark = new ExtentSparkReporter("index.html");
 
@@ -52,8 +59,6 @@ public class BaseClass {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-
-
     }
 
     protected void initialize(String BrowserType,String AppURLProperty, String RunMode) throws InterruptedException{
@@ -100,7 +105,16 @@ public class BaseClass {
 
 
     }
+    public void ApplicationLoginTry() throws InterruptedException {
+        Login= PageFactory.initElements(driver, LoginPage .class);
+        HomePage= PageFactory.initElements(driver, HomePage .class);
+        Login.LoginPage_isdisplayed();
+        Login.LoginPage_inputUser();
+        Login.LoginPage_inputPass();
+        Login.LoginPage_LoginbuttonClick();
+        HomePage.HomePage_isdisplayed();
 
+    }
 
     @AfterClass(alwaysRun = true)
     public void tearDown() throws Exception {

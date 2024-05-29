@@ -22,6 +22,7 @@ public class HomePage {
     public void HomePage_isdisplayed()
     {
         if(app_menu.isDisplayed()) {
+
             TestListeners.extentTest.get().log(Status.PASS, "Application page is loaded Menu option visible");
         }
     }

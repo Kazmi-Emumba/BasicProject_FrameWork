@@ -9,7 +9,7 @@ import org.openqa.selenium.support.How;
 import org.testng.annotations.Listeners;
 import utils.TestListeners;
 import Variables.configReader;
-@Listeners(utils.TestListeners.class)
+//@Listeners(utils.TestListeners.class)
 public class LoginPage {
 
     protected String LoginUser;
@@ -31,8 +31,8 @@ public class LoginPage {
 
     public void LoginPage_isdisplayed()
     {
-        if(this.Login_logo.isDisplayed()) {
-            System.out.println(TestListeners.extentTest.get());
+        if(Login_logo.isDisplayed()) {
+            //System.out.println(TestListeners.extentTest.get());
         TestListeners.extentTest.get().log(Status.PASS, "Login Page is loaded successfully");
     }
     }
