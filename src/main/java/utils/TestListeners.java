@@ -77,6 +77,7 @@ public class TestListeners implements ITestListener {
 
     @Override
     public void onStart(ITestContext context) {
+
        extent= ExtentManager.createInstance();
     }
 

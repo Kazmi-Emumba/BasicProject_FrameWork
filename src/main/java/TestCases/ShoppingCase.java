@@ -1,14 +1,11 @@
 package TestCases;
 
-import Base.ApplicationLogin;
 import Base.BaseClass;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pageFactory.CartFlow;
 
-import static utils.ExtentManager.createInstance;
 //@Listeners(utils.TestListeners.class)
 public class ShoppingCase extends BaseClass {
 
@@ -30,6 +27,7 @@ public class ShoppingCase extends BaseClass {
       CartPage.BagItem_shoppingCart();
       CartPage.itemBag_isdisplayed();
      CartPage.BagItem_Cart_checkout();
+     CartPage.Bag_detailsin_Cart_isdisplayed();
      CartPage.ChecoutDetails_inputfirstName();
     CartPage.ChecoutDetails_inputLastName();
           CartPage.ChecoutDetails_inputPostCode();

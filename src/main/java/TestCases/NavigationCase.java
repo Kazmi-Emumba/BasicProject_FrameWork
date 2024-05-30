@@ -1,16 +1,12 @@
 package TestCases;
 
-import Base.ApplicationLogin;
 import Base.BaseClass;
 import com.aventstack.extentreports.ExtentReports;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pageFactory.HomePage;
 import pageFactory.LoginPage;
-
-import static utils.ExtentManager.createInstance;
 
 //@Listeners(utils.TestListeners.class)
 public class NavigationCase extends BaseClass {
