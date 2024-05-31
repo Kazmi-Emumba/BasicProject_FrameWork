@@ -2,8 +2,8 @@
 UI Automation with Selenium and Extent Reporting
 
 # Project Details
-> Create a Maven project and use configuration file for execution b\
-> Implement dynamically initialize the WebDriver \
+> Create a Maven project and use configuration file for execution \
+> Implemented dynamically initialization of WebDriver \
 > Automate Two sample UI Tests and add extent reporting for results \
 > Use selenium grid local to run Tests in parallel Threads
 
