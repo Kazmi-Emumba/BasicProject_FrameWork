@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e3e1db9-a485-4cb4-bc6d-a1d6aa127db3" name="Changes" comment="Updated ReadMe File to enter new lines">
+    <list default="true" id="2e3e1db9-a485-4cb4-bc6d-a1d6aa127db3" name="Changes" comment="Duplicate Test instance creation fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Base/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestCases/NavigationCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCases/NavigationCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestCases/ShoppingCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCases/ShoppingCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Base/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Base/BaseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestCases/NavigationCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestCases/NavigationCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestCases/ShoppingCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestCases/ShoppingCase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +39,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2cgh2K9OrdFqGuO2eDodQ9kBDYq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -57,7 +63,7 @@
       <recent name="pageFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Old Laptop/Automation Goal/ProjectSetup/batchfiles/batch.xml">
+  <component name="RunManager" selected="TestNG.D:/Automation Assignments/ProjectSetup/Project_Setup/batchfiles/batch.xml (1)">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -69,7 +75,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/Old Laptop/Automation Goal/ProjectSetup/batchfiles/batch.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/Automation Assignments/ProjectSetup/Project_Setup/batchfiles/batch.xml (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjectSetup" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/batchfiles/batch.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
@@ -79,9 +85,69 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="&lt;default&gt; (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/Automation Assignments/ProjectSetup/Project_Setup/batchfiles/batch.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjectSetup" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/batchfiles/batch.xml" />
       <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea--add-opens java.base/java.lang=ALL-UNNAMED" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NavigationCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectSetup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.NavigationCase" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectSetup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.ShoppingCase" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCases" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectSetup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
       <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
@@ -89,43 +155,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="&lt;default&gt; (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ProjectSetup" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="&lt;default&gt; (3)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ProjectSetup" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ProjectSetup" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="TestNG.NavigationCase" />
+      <item itemvalue="TestNG.D:/Automation Assignments/ProjectSetup/Project_Setup/batchfiles/batch.xml (1)" />
+      <item itemvalue="TestNG.D:/Automation Assignments/ProjectSetup/Project_Setup/batchfiles/batch.xml" />
+      <item itemvalue="TestNG.ShoppingCase" />
+      <item itemvalue="TestNG.TestCases" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/Old Laptop/Automation Goal/ProjectSetup/batchfiles/batch.xml" />
-        <item itemvalue="TestNG.&lt;default&gt; (3)" />
-        <item itemvalue="TestNG.&lt;default&gt;" />
-        <item itemvalue="TestNG.&lt;default&gt; (2)" />
-        <item itemvalue="TestNG.&lt;default&gt; (1)" />
+        <item itemvalue="TestNG.D:/Automation Assignments/ProjectSetup/Project_Setup/batchfiles/batch.xml (1)" />
+        <item itemvalue="TestNG.NavigationCase" />
+        <item itemvalue="TestNG.D:/Automation Assignments/ProjectSetup/Project_Setup/batchfiles/batch.xml" />
+        <item itemvalue="TestNG.ShoppingCase" />
+        <item itemvalue="TestNG.TestCases" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +223,49 @@
       <option name="project" value="LOCAL" />
       <updated>1713276673897</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="selenium grid handle from config and Login class report improvement">
+      <created>1714339358799</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714339358799</updated>
+    </task>
+    <task id="LOCAL-00008" summary="selenium grid handle from config and Login class report improvement">
+      <created>1714339765816</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714339765816</updated>
+    </task>
+    <task id="LOCAL-00009" summary="selenium grid handle from config and Login class report improvement">
+      <created>1714376590837</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714376590837</updated>
+    </task>
+    <task id="LOCAL-00010" summary="TestListener Implemented and LoginApplication class run working only now">
+      <created>1716547823661</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716547823661</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Parallel execution of both Classes working with TestListners for logging">
+      <created>1717008650086</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1717008650086</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Duplicate Test instance creation fixed">
+      <created>1717040570148</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1717040570148</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,7 +273,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Improvement1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -199,9 +296,16 @@
     <MESSAGE value="project Setup with selenium grid standalone flow" />
     <MESSAGE value="Updated ReadMe File" />
     <MESSAGE value="Updated ReadMe File to enter new lines" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated ReadMe File to enter new lines" />
+    <MESSAGE value="selenium grid handle from config and Login class report improvement" />
+    <MESSAGE value="TestListener Implemented and LoginApplication class run working only now" />
+    <MESSAGE value="Parallel execution of both Classes working with TestListners for logging" />
+    <MESSAGE value="Duplicate Test instance creation fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Duplicate Test instance creation fixed" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Project_Setup$D__Automation_Assignments_ProjectSetup_Project_Setup_batchfiles_batch_xml.ic" NAME="$PROJECT_DIR$/batchfiles/batch.xml Coverage Results" MODIFIED="1717007232884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Project_Setup$D__Old_Laptop_Automation_Goal_ProjectSetup_batchfiles_batch_xml.ic" NAME="$PROJECT_DIR$/../../../Old Laptop/Automation Goal/ProjectSetup/batchfiles/batch.xml Coverage Results" MODIFIED="1714336984205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Project_Setup$D__Automation_Assignments_ProjectSetup_Project_Setup_batchfiles_batch_xml__1_.ic" NAME="$PROJECT_DIR$/batchfiles/batch.xml (1) Coverage Results" MODIFIED="1717052905000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/ProjectSetup$ValidLogin_login.ic" NAME="ValidLogin.login Coverage Results" MODIFIED="1708546564947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestCases.*</FILTER>
     </SUITE>

@@ -1,14 +1,13 @@
 package TestCases;
 
 import Base.BaseClass;
-import Base.LoginTry;
-import com.aventstack.extentreports.ExtentTest;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pageFactory.CartFlow;
 
-public class ShoppingCase extends LoginTry {
+//@Listeners(utils.TestListeners.class)
+public class ShoppingCase extends BaseClass {
 
 
     CartFlow CartPage;
@@ -16,41 +15,32 @@ public class ShoppingCase extends LoginTry {
     @BeforeClass
     public void setup() throws InterruptedException {
         CartPage= PageFactory.initElements(driver, CartFlow .class);
-        getExtent();
-        logintry();
+
     }
 
     @Test
     public void bag_shopping_flow() throws InterruptedException {
-        if(CartPage.bag_title.isDisplayed())
-        {
-            CartPage.add_to_cart_bag.click();
-            Thread.sleep(3000);
-            CartPage.shopping_cart.click();
-            Thread.sleep(2000);
-            if (CartPage.bag_title.isDisplayed())
-            {
-                CartPage.cart_Checkout.click();
-                Thread.sleep(2000);
-                if(CartPage.cart_Checkout_details.isDisplayed())
-                {
-                    CartPage.cart_firstname.sendKeys("First_Name");
-                    CartPage.cart_lastname.sendKeys("Last_Name");
-                    CartPage.cart_postalcode.sendKeys("1234");
-                    Thread.sleep(2000);
-                    CartPage.cart_continue.click();
-                }
-                if (CartPage.bag_title.isDisplayed())
-                {
-                   CartPage.cart_finish.click();
-                   CartPage.checkOut_Done.isDisplayed();
-                }
+       try {
+           ApplicationLoginTry();
 
-            }
-        }
-        ExtentTest loginTest= extent.createTest("shopping cart Flow Test");
-        loginTest.pass("Shopping Checkout Successfully");
-
+           CartPage.itemBag_isdisplayed();
+           CartPage.BagItem_addToCart();
+           CartPage.BagItem_shoppingCart();
+           CartPage.itemBag_isdisplayed();
+           CartPage.BagItem_Cart_checkout();
+           CartPage.Bag_detailsin_Cart_isdisplayed();
+           CartPage.ChecoutDetails_inputfirstName();
+           CartPage.ChecoutDetails_inputLastName();
+           CartPage.ChecoutDetails_inputPostCode();
+           CartPage.Cart_ContinueClick();
+           CartPage.itemBag_isdisplayed();
+           CartPage.Cart_FinishClick();
+           CartPage.checkOutDone_isdisplayed();
+       }
+       catch(Exception e)
+       {
+           System.out.println(e);
+       }
 
 
     }
