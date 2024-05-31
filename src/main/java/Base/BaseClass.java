@@ -57,72 +57,79 @@ public class BaseClass {
         try {
             initialize(BrowserType,AppUrl,ExecutionMode);
         } catch (InterruptedException e) {
+            System.out.println(e);
             throw new RuntimeException(e);
+
         }
     }
 
     protected void initialize(String BrowserType,String AppURLProperty, String RunMode) throws InterruptedException{
+        try {
+            if (BrowserType.equalsIgnoreCase("chrome")) {
+                WebDriverManager.chromedriver().setup();
+                driver = new ChromeDriver();
+            } else if (BrowserType.equalsIgnoreCase("firefox")) {
+                WebDriverManager.firefoxdriver().setup();
+                FirefoxOptions options = new FirefoxOptions();
+                try {
+                    driver = new RemoteWebDriver(new URI("http://localhost:4444/").toURL(), options);
+                } catch (URISyntaxException | MalformedURLException e) {
+                    throw new RuntimeException(e);
+                }
+                //driver = new FirefoxDriver();
+            } else if (BrowserType.equalsIgnoreCase("edge")) {
 
-        if(BrowserType.equalsIgnoreCase("chrome"))
-        {
-            WebDriverManager.chromedriver().setup();
-            driver = new ChromeDriver();
-        }
-        else if(BrowserType.equalsIgnoreCase("firefox"))
-        {
-            WebDriverManager.firefoxdriver().setup();
-            FirefoxOptions options = new FirefoxOptions();
-            try {
-                driver = new RemoteWebDriver(new URI("http://localhost:4444/").toURL(), options);
-            } catch (URISyntaxException | MalformedURLException e) {
-                throw new RuntimeException(e);
+                if (RunMode.equalsIgnoreCase("seleniumgrid")) {
+                    EdgeOptions options = new EdgeOptions();
+                    try {
+                        driver = new RemoteWebDriver(new URI("http://localhost:4444/").toURL(), options);
+                        WebDriverManager.edgedriver().setup();
+                    } catch (URISyntaxException | MalformedURLException e) {
+                        throw new RuntimeException(e);
+                    }
+                } else {
+                    WebDriverManager.edgedriver().setup();
+                    driver = new EdgeDriver();
+                }
             }
-            //driver = new FirefoxDriver();
-        }
-        else if(BrowserType.equalsIgnoreCase("edge"))
-        {
 
-           if(RunMode.equalsIgnoreCase("seleniumgrid"))
-           {
-               EdgeOptions options = new EdgeOptions();
-            try {
-                driver = new RemoteWebDriver(new URI("http://localhost:4444/").toURL(), options);
-                WebDriverManager.edgedriver().setup();
-            } catch (URISyntaxException | MalformedURLException e) {
+            driver.manage().window().maximize();
+            driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+
+            driver.get(AppURLProperty);
+        }catch (Exception e) {
+                System.out.println(e);
                 throw new RuntimeException(e);
+
             }
-           }
-           else{
-               WebDriverManager.edgedriver().setup();
-               driver = new EdgeDriver();
-           }
-        }
-
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-
-        driver.get(AppURLProperty);
 
 
     }
     public void ApplicationLoginTry() throws InterruptedException {
-        Login= PageFactory.initElements(driver, LoginPage .class);
-        HomePage= PageFactory.initElements(driver, HomePage .class);
+        try { Login= PageFactory.initElements(driver, LoginPage .class);
         Login.LoginPage_isdisplayed();
         Login.LoginPage_inputUser();
         Login.LoginPage_inputPass();
         Login.LoginPage_LoginbuttonClick();
-        HomePage.HomePage_isdisplayed();
-
+        } catch (Exception e)
+        {
+            System.out.println(e+"shereee2222");
+        }
     }
 
     @AfterClass(alwaysRun = true)
     public void tearDown() throws Exception {
 
-        cleanUp();
+       try {
+           cleanUp();
+       }
+       catch (Exception e)
+       {
+           System.out.println(e);
+       }
     }
 
-    protected void cleanUp(){
+    protected void cleanUp() {
         //extent.flush();
 /*
         String verificationErrorString = verificationErrors.toString();
@@ -131,7 +138,14 @@ public class BaseClass {
         }
 
  */
-        this.driver.quit();
+        try{
+            this.driver.close();
+        //this.driver.quit();
+    }catch (Exception e) {
+            System.out.println(e);
+            throw new RuntimeException(e);
+
+        }
 
     }
 

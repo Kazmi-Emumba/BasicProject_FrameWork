@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e3e1db9-a485-4cb4-bc6d-a1d6aa127db3" name="Changes" comment="Parallel execution of both Classes working with TestListners for logging">
+    <list default="true" id="2e3e1db9-a485-4cb4-bc6d-a1d6aa127db3" name="Changes" comment="Duplicate Test instance creation fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Base/ApplicationLogin.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Base/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/BaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TestCases/NavigationCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCases/NavigationCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TestCases/ShoppingCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCases/ShoppingCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/TestListeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/TestListeners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Base/ApplicationLogin.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Base/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Base/BaseClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/TestCases/NavigationCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestCases/NavigationCase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/TestCases/ShoppingCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestCases/ShoppingCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageFactory/CartFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageFactory/CartFlow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageFactory/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageFactory/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/TestListeners.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/TestListeners.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +105,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NavigationCase.app_logout" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NavigationCase" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjectSetup" />
       <extension name="coverage">
         <pattern>
@@ -121,8 +115,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="TestCases" />
       <option name="MAIN_CLASS_NAME" value="TestCases.NavigationCase" />
-      <option name="METHOD_NAME" value="app_logout" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -163,19 +156,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.NavigationCase" />
       <item itemvalue="TestNG.D:/Automation Assignments/ProjectSetup/Project_Setup/batchfiles/batch.xml (1)" />
       <item itemvalue="TestNG.D:/Automation Assignments/ProjectSetup/Project_Setup/batchfiles/batch.xml" />
-      <item itemvalue="TestNG.NavigationCase.app_logout" />
       <item itemvalue="TestNG.ShoppingCase" />
       <item itemvalue="TestNG.TestCases" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.D:/Automation Assignments/ProjectSetup/Project_Setup/batchfiles/batch.xml (1)" />
+        <item itemvalue="TestNG.NavigationCase" />
         <item itemvalue="TestNG.D:/Automation Assignments/ProjectSetup/Project_Setup/batchfiles/batch.xml" />
         <item itemvalue="TestNG.ShoppingCase" />
         <item itemvalue="TestNG.TestCases" />
-        <item itemvalue="TestNG.NavigationCase.app_logout" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717008650086</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Duplicate Test instance creation fixed">
+      <created>1717040570148</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1717040570148</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,11 +299,13 @@
     <MESSAGE value="selenium grid handle from config and Login class report improvement" />
     <MESSAGE value="TestListener Implemented and LoginApplication class run working only now" />
     <MESSAGE value="Parallel execution of both Classes working with TestListners for logging" />
-    <option name="LAST_COMMIT_MESSAGE" value="Parallel execution of both Classes working with TestListners for logging" />
+    <MESSAGE value="Duplicate Test instance creation fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Duplicate Test instance creation fixed" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Project_Setup$D__Automation_Assignments_ProjectSetup_Project_Setup_batchfiles_batch_xml.ic" NAME="$PROJECT_DIR$/batchfiles/batch.xml Coverage Results" MODIFIED="1717007232884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Project_Setup$D__Old_Laptop_Automation_Goal_ProjectSetup_batchfiles_batch_xml.ic" NAME="$PROJECT_DIR$/../../../Old Laptop/Automation Goal/ProjectSetup/batchfiles/batch.xml Coverage Results" MODIFIED="1714336984205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Project_Setup$D__Automation_Assignments_ProjectSetup_Project_Setup_batchfiles_batch_xml__1_.ic" NAME="$PROJECT_DIR$/batchfiles/batch.xml (1) Coverage Results" MODIFIED="1717052905000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/ProjectSetup$ValidLogin_login.ic" NAME="ValidLogin.login Coverage Results" MODIFIED="1708546564947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestCases.*</FILTER>
     </SUITE>

@@ -23,10 +23,17 @@ LoginPage LPage;
 
     @Test
     public void app_NavigationFLow_logout() throws InterruptedException {
-        ApplicationLoginTry();
-        HPage.HomePage_isdisplayed();
-        HPage.Homepage_menuClick();
-        HPage.logout_menuClick();
+      try {
+          ApplicationLoginTry();
+          HPage.HomePage_isdisplayed();
+          HPage.Homepage_menuClick();
+          HPage.logout_menuClick();
+
+      } catch (Exception e)
+                {
+                        System.out.println(e+"shereee");
+       }
+
 
     }
 

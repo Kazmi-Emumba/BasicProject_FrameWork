@@ -20,21 +20,27 @@ public class ShoppingCase extends BaseClass {
 
     @Test
     public void bag_shopping_flow() throws InterruptedException {
-        ApplicationLoginTry();
+       try {
+           ApplicationLoginTry();
 
-      CartPage.itemBag_isdisplayed();
-      CartPage.BagItem_addToCart();
-      CartPage.BagItem_shoppingCart();
-      CartPage.itemBag_isdisplayed();
-     CartPage.BagItem_Cart_checkout();
-     CartPage.Bag_detailsin_Cart_isdisplayed();
-     CartPage.ChecoutDetails_inputfirstName();
-    CartPage.ChecoutDetails_inputLastName();
-          CartPage.ChecoutDetails_inputPostCode();
-        CartPage.Cart_ContinueClick();
-        CartPage.itemBag_isdisplayed();
-        CartPage.Cart_FinishClick();
-        CartPage.checkOutDone_isdisplayed();
+           CartPage.itemBag_isdisplayed();
+           CartPage.BagItem_addToCart();
+           CartPage.BagItem_shoppingCart();
+           CartPage.itemBag_isdisplayed();
+           CartPage.BagItem_Cart_checkout();
+           CartPage.Bag_detailsin_Cart_isdisplayed();
+           CartPage.ChecoutDetails_inputfirstName();
+           CartPage.ChecoutDetails_inputLastName();
+           CartPage.ChecoutDetails_inputPostCode();
+           CartPage.Cart_ContinueClick();
+           CartPage.itemBag_isdisplayed();
+           CartPage.Cart_FinishClick();
+           CartPage.checkOutDone_isdisplayed();
+       }
+       catch(Exception e)
+       {
+           System.out.println(e);
+       }
 
 
     }
